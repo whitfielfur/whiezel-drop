@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, ReactNode } from "react";
+import { createContext, useContext, useState, type ReactNode } from "react"; // Vercel is arguing about that type thingy.
 
 type Product = {
   id: string;
