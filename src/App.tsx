@@ -5,7 +5,7 @@ import { Marquee } from "./components/ui/Marquee";
 import { WireframeGlobe } from "./components/ui/WireframeGlobe";
 import { Footer } from "./components/layout/Footer";
 import { ArrowDownRight, Globe, ShieldCheck } from "lucide-react";
-import { createContext, useContext, useState, ReactNode } from "react";
+import { createContext, useContext, useState, type ReactNode } from "react"; // Vercel is arguing about that type thingy.
 
 type Product = {
   id: string;
